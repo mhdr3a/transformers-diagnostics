@@ -18,7 +18,7 @@ This is an example of using run_diagnostics_mnli.py in Google Colab:
         --max_seq_length 128 \
         --output_dir mnli-6
 ```
-* Note that the mnli-6 model is fine-tuned on MNLI; use run_diagnostics_snli.py if your model is fine-tuned on SNLI.
+* Note that the mnli-6 model is fine-tuned on MNLI; so, use run_diagnostics_snli.py if your model is fine-tuned on SNLI.
 
 This will create the diagnostics_predictions.txt file in ./mnli-6, which can then be evaluated using evaluate_predictions.py.
 
